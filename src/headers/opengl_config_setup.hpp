@@ -1,7 +1,7 @@
 #ifndef OPENGL_SETUP_
 #define OPENGL_SETUP_
 
-#include "pch/opengl_libs.hpp"
+// #include "pch/opengl_libs.hpp"
 #include "game_setup.hpp"
 
 using namespace std;

@@ -20,6 +20,7 @@ target_sources(
   PRIVATE
   ${SRCS}
   ${HEADERS}
+	${HEADERS_GEO_OBJECTS}
   ${HEADERS_PCH}
 )
 

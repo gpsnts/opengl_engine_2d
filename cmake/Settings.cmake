@@ -15,6 +15,8 @@ file(
   ${SRC_DIR}/*.cpp
 )
 
+message("SET...SRCS")
+
 file(
   GLOB
   HEADERS_PCH
@@ -22,11 +24,15 @@ file(
   ${SRC_DIR}/headers/pch/*.hpp
 )
 
+message("SET...HEADERS_PCH")
+
 file(
   GLOB
   HEADERS
   CONFIGURE_DEPENDS
   ${SRC_DIR}/headers/*.hpp
 )
+
+message("SET...HEADERS")
 
 message("Compiler settings...OK\n")
