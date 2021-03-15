@@ -8,13 +8,14 @@
 class Triangle
 {
 	private:
-		GLfloat* plot_triangle;
 		Coord top_point, left_point, right_point;
 	public:
 		Triangle(Coord* top, Coord* left, Coord* right);
 		~Triangle();
 
 		void data();
+
+		GLfloat* plot_triangle;
 };
 
 #endif // !TRIANGLE_HPP_
